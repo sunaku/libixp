@@ -9,6 +9,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <ixp_local.h>
+char *argv0; /* that extern in ixp_local.h is defined here */
 
 /* Temporary */
 #define fatal(...) ixp_eprint("ixpc: fatal: " __VA_ARGS__); \
